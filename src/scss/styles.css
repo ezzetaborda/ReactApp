@@ -1,0 +1,147 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#root header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#root header nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 100%;
+  background-color: coral;
+}
+
+#root header nav .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 60px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#root header nav .logo img {
+  height: 50px;
+}
+
+#root header nav .titulo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 60px;
+}
+
+#root header nav .titulo h2 {
+  height: auto;
+}
+
+#root header nav .links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 60px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#root header nav .links a {
+  margin-left: 15px;
+  font-size: 24px;
+  color: black;
+  text-decoration: none;
+}
+
+#root header nav .links a:hover {
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  color: #ffffff;
+  -webkit-transform: scale(1.15);
+          transform: scale(1.15);
+}
+
+#root main {
+  height: 800px;
+  background-color: aliceblue;
+}
+
+#root main .sec0 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 200px;
+}
+
+#root main .sec0 h1 {
+  font-size: 25px;
+  text-align: center;
+}
+
+#root footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background-color: coral;
+}
+
+#root footer .logo img {
+  height: 50px;
+}
+
+#root footer .socialMedia {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#root footer .socialMedia a {
+  margin: 5px;
+  font-size: 25px;
+  color: black;
+  text-decoration: none;
+}
+
+#root footer .socialMedia a:hover {
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  color: #ffffff;
+  -webkit-transform: scale(1.15);
+          transform: scale(1.15);
+}
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,92 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+#root{
+    header{
+        display: flex;
+        nav{
+            display: flex;
+            justify-content: space-around;
+            flex-direction: row;
+            width: 100%;
+            background-color: coral;
+            .logo{
+                display: flex;
+                height: 60px;
+                align-items: center;
+                img{
+                    height: 50px;
+                }
+            }
+            .titulo{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 60px;
+                h2{
+                    height: auto;
+                }
+            }
+            .links{
+                display: flex;
+                height: 60px;
+                align-items: center;
+                a{
+                    margin-left: 15px;
+                    font-size: 24px;
+                    color: black;
+                    text-decoration: none;
+                    &:hover{
+                        transition: all 0.5s;
+                        color: #ffffff;
+                        transform: scale(1.15);
+                    }    
+                }
+            }
+        }
+    }
+    main{
+        height: 800px;
+        background-color: aliceblue;
+        .sec0{
+            display: flex;
+            justify-content: center;
+            padding-top: 200px;
+            h1{
+                font-size: 25px;
+                text-align: center;
+            }
+        }
+    }
+    footer{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        background-color: coral;
+        
+        .logo{
+            img{
+                height: 50px;
+            }
+        }
+        .socialMedia{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            a{
+                margin: 5px;
+                font-size: 25px;
+                color: black;
+                text-decoration: none;
+                &:hover{
+                    transition: all 0.5s;
+                    color: #ffffff;
+                    transform: scale(1.15);
+                }   
+            }
+        }
+    }
+}
