@@ -1,6 +1,8 @@
 import logo from "../image/minilogo.png"
+import Cart from "../components/CartWidget"
 
-const Header = () => {
+const Header = (props) => {
+    console.log(props.saludo)
     return (
         <header>
             <nav>
@@ -15,6 +17,7 @@ const Header = () => {
                     <a href="" class="Me">About Me</a>
                     <a href="" class="Contact">Contact</a>
                 </div>
+                <Cart/>
             </nav>
         </header>
     )
